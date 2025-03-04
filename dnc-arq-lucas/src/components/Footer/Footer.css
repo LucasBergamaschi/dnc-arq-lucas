@@ -1,0 +1,89 @@
+footer {
+    display: flex;
+    justify-content: space-between; /* Distribui os blocos uniformemente */
+    align-items: flex-start; /* Alinha os itens no topo */
+    padding: 50px; /* Adiciona espaço interno */
+}
+
+
+.footer-logo-col{
+    max-width: 340px;
+    width: 100%;
+    flex:1
+}
+
+.footer-col {
+    margin: 0 0 0 140px;
+    max-width: 260px;
+    width: 100%;
+    flex: 1
+}
+
+.footer-col ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Remove marcadores */
+    text-align: left; /* Alinha à esquerda para consistência */
+}
+
+.footer-col li {
+    margin: 15px; 
+}
+
+.footer h3, .footer-logo {
+    font-size: 18px; /* Ajusta o tamanho do título */
+    margin-bottom: 15px; /* Reduz espaço inferior */
+
+}
+
+.footer a, .footer p {
+    font-size: 22px;
+    margin: 0;
+    line-height: 1.5;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: inherit; /* Garante que os links tenham a mesma cor de texto */
+}
+
+footer a:hover {
+    color: #0c70f2;
+}
+
+footer .social-links {
+    display: flex; /* Torna os ícones flexíveis */
+    gap: 30px; /* Adiciona espaço entre os ícones */
+    margin-top: 15px;
+}
+
+.footer-copy {
+    display: flex;
+    justify-content: space-between; /* Distribui o copyright e as bandeiras */
+    align-items: center; /* Centraliza verticalmente */
+    margin: 50px 0; /* Reduz espaço vertical */
+    font-size: 14px;
+    color: #777;
+}
+
+.footer-copy .langs-area {
+    display: flex;
+    gap: 15px; /* Ajusta espaço entre as bandeiras */
+}
+
+@media (max-width: 768px) {
+    .footer-col, .footer-logo-col {
+        margin: 0; /* Remove margens laterais no mobile */
+        max-width: 100%;
+        width: 100%;
+    }
+    .footer-copy {
+        flex-direction: column; /* Empilha os elementos no mobile */
+        gap: 10px;
+        text-align: center;
+    }
+    .footer-copy .langs-area {
+        justify-content: center;
+    }
+}
