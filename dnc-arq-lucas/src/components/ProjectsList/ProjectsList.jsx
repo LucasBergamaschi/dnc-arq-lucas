@@ -5,7 +5,7 @@ import './ProjectsList.css'
 
 /*ASSETS*/
 
-import LikedFilled from '../../assets/Like.svg'
+import LikedFilled from '../../assets/like.svg'
 import LikeOutline from '../../assets/Unlike.svg'
 
 //COMPONENTS
