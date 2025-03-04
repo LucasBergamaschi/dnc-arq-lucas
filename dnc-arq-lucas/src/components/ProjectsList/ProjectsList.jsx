@@ -6,7 +6,7 @@ import './ProjectsList.css'
 /*ASSETS*/
 
 import LikedFilled from '../../assets/like.svg'
-import LikeOutline from '../../assets/Unlike.svg'
+import LikeOutline from '../../assets/unlike.svg'
 
 //COMPONENTS
 import Button from '../Button/Button.jsx'
